@@ -7,7 +7,88 @@
 //Teste larissa
 
 int main() {
-    printf("Super Trunfo\n");
+printf("Super Trunfo\n");
+printf("Carta 1 \n");
+char estado;
+int numero;
+char codigo[4];
+char nome[30];
+int populaçao;
+float área;
+float PIB;
+int turistas;
+
+printf("Estado: \n");
+scanf(" %c", &estado);
+
+printf("Código: \n");
+scanf("%d", &numero);
+sprintf(codigo, "%c%02d", estado, numero);
+
+printf("Nome da cidade: \n");
+scanf("%s", &nome);
+
+printf("Populaçao: \n");
+scanf("%d", &populaçao);
+
+printf("Área: \n");
+scanf("%f", &área);
+
+printf("PIB: \n");
+scanf("%f", &PIB);
+
+printf("Numero de pontos turísticos: \n");
+scanf("%d", &turistas);
+
+printf("Estado: %c\n", estado);
+printf("Código: %s\n", codigo);
+printf("Nomeda cidade: %s\n", nome);
+printf("Populaçao: %d\n", populaçao);
+printf("Área: %f km²\n", área);
+printf("PIB: %f Bilhoes de reais\n", PIB);
+printf("Numero de pontos turisticos: %d\n", turistas);
+
+
+printf("Carta 2 \n");
+
+printf("Estado: \n");
+scanf(" %c", &estado);
+
+printf("Código: \n");
+scanf("%d", &numero);
+sprintf(codigo, "%c%02d", estado, numero);
+
+printf("Nome da cidade: \n");
+scanf("%s", &nome);
+
+printf("Populaçao: \n");
+scanf("%d", &populaçao);
+
+printf("Área: \n");
+scanf("%f", &área);
+
+printf("PIB: \n");
+scanf("%f", &PIB);
+
+printf("Numero de pontos turísticos: \n");
+scanf("%d", &turistas);
+
+printf("Estado: %c\n", estado);
+printf("Código: %s\n", codigo);
+printf("Nomeda cidade: %s\n", nome);
+printf("Populaçao: %d\n", populaçao);
+printf("Área: %f km²\n", área);
+printf("PIB: %f Bilhoes de reais\n", PIB);
+printf("Numero de pontos turisticos: %d\n", turistas);
+
+
+
+
+
+
+
+
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
