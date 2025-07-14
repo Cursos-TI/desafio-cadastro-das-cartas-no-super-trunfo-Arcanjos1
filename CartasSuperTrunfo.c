@@ -7,98 +7,99 @@
 //Teste larissa
 
 int main() {
-printf("Super Trunfo\n");
-printf("Carta 1 \n");
-char estado;
-int numero;
-char codigo[4];
-char nome[30];
-int populaçao;
-float área;
-float PIB;
-int turistas;
+// Carta 1
+char estado_1;
+char codigo_carta_1[4];
+char nome_cidade_1[40];
+int populaçao_1;
+float área_1;
+float PIB_1;
+int turistas_1;
 
-printf("Estado: \n");
-scanf(" %c", &estado);
+// Carta 2
+char estado_2;
+char codigo_carta_2[4];
+char nome_cidade_2[40];
+int populaçao_2;
+float área_2;
+float PIB_2;
+int turistas_2;
 
-printf("Código: \n");
-scanf("%d", &numero);
-sprintf(codigo, "%c%02d", estado, numero);
+// Entrada de dados carta 1
+printf("Cadastro da carta 1\n");
+printf("Estado (uma letra de 'A'a 'H'): \n");
+scanf(" %c", &estado_1);
 
-printf("Nome da cidade: \n");
-scanf("%s", &nome);
+printf("Código (exemplo: A01 ): \n");
+scanf("%s", &codigo_carta_1);
 
-printf("Populaçao: \n");
-scanf("%d", &populaçao);
+printf("Nome da cidade (exemplo: Minas Gerais): \n");
+scanf("%s", &nome_cidade_1);
+
+printf("Populaçao (sem pontos): \n");
+scanf(" %d", &populaçao_1);
 
 printf("Área: \n");
-scanf("%f", &área);
+scanf("%f", &área_1);
 
 printf("PIB: \n");
-scanf("%f", &PIB);
+scanf("%f", &PIB_1);
 
 printf("Numero de pontos turísticos: \n");
-scanf("%d", &turistas);
+scanf("%d", &turistas_1);
 
-printf("Estado: %c\n", estado);
-printf("Código: %s\n", codigo);
-printf("Nomeda cidade: %s\n", nome);
-printf("Populaçao: %d\n", populaçao);
-printf("Área: %f km²\n", área);
-printf("PIB: %f Bilhoes de reais\n", PIB);
-printf("Numero de pontos turisticos: %d\n", turistas);
 
+// Entrada de dados carta 2
+printf("Cadastro carta 2\n");
+
+printf("Estado (uma letra de 'A'a 'H'): \n");
+scanf(" %c", &estado_2);
+
+printf("Código (exemplo: A01 ): \n");
+scanf("%s", &codigo_carta_2);
+
+printf("Nome da cidade: \n");
+scanf("%s", &nome_cidade_2);
+
+printf("Populaçao (sem pontos): \n");
+scanf("%d", &populaçao_2);
+
+printf("Área: \n");
+scanf(" %f", &área_2);
+
+printf("PIB: \n");
+scanf("%f", &PIB_2);
+
+printf("Numero de pontos turísticos: \n");
+scanf("%d", &turistas_2);
+printf("\n");
+
+//Saída de dados carta 1
+printf("Carta 1 \n");
+printf("Estado: %c\n", estado_1);
+printf("Código: %s\n", codigo_carta_1);
+printf("Nomeda cidade: %s\n", nome_cidade_1);
+printf("Populaçao: %d\n", populaçao_1);
+printf("Área: %f km²\n", área_1);
+printf("PIB: %f Bilhoes de reais\n", PIB_1);
+printf("Numero de pontos turisticos: %d\n", turistas_1);
+
+//Saída de dados carta 2
 
 printf("Carta 2 \n");
-
-printf("Estado: \n");
-scanf(" %c", &estado);
-
-printf("Código: \n");
-scanf("%d", &numero);
-sprintf(codigo, "%c%02d", estado, numero);
-
-printf("Nome da cidade: \n");
-scanf("%s", &nome);
-
-printf("Populaçao: \n");
-scanf("%d", &populaçao);
-
-printf("Área: \n");
-scanf("%f", &área);
-
-printf("PIB: \n");
-scanf("%f", &PIB);
-
-printf("Numero de pontos turísticos: \n");
-scanf("%d", &turistas);
-
-printf("Estado: %c\n", estado);
-printf("Código: %s\n", codigo);
-printf("Nomeda cidade: %s\n", nome);
-printf("Populaçao: %d\n", populaçao);
-printf("Área: %f km²\n", área);
-printf("PIB: %f Bilhoes de reais\n", PIB);
-printf("Numero de pontos turisticos: %d\n", turistas);
+printf("Estado: %c\n", estado_2);
+printf("Código: %s\n", codigo_carta_2);
+printf("Nomeda cidade: %s\n", nome_cidade_2);
+printf("Populaçao: %d\n", populaçao_2);
+printf("Área: %f km²\n", área_2);
+printf("PIB: %f Bilhoes de reais\n", PIB_2);
+printf("Numero de pontos turisticos: %d\n", turistas_2);
 
 
 
 
 
 
-
-
-
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     return 0;
 }
