@@ -33,7 +33,7 @@ scanf(" %c", &estado_1);
 printf("Código (exemplo: A01 ): \n");
 scanf("%s", &codigo_carta_1);
 
-printf("Nome da cidade (exemplo: MG): \n");
+printf("Nome da cidade (exemplo: Minas_Gerais): \n");
 scanf("%s", &nome_cidade_1);
 
 printf("Populaçao (sem pontos): \n");
@@ -58,7 +58,7 @@ scanf(" %c", &estado_2);
 printf("Código (exemplo: A01 ): \n");
 scanf("%s", &codigo_carta_2);
 
-printf("Nome da cidade (exempo: SP): \n");
+printf("Nome da cidade (exempo: São_Paulo): \n");
 scanf("%s", &nome_cidade_2);
 
 printf("Populaçao (sem pontos): \n");
