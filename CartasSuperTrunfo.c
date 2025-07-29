@@ -77,10 +77,10 @@ scanf("%d", &turistas_2);
 printf("\n");
 
 //calculo carta 1 e 2
-if (area_1 > 0.0f) densidade_1 = (float)populacao_1 / area_1;
-if (area_2 > 0.0f) densidade_2 = (float)populacao_2 / area_2;
-if (populacao_1 > 0) PIB_cap1 = (float)(PIB_1 *1000000000.0f)/populacao_1;
-if (populacao_2 > 0) PIB_cap2 = (float)(PIB_2 *1000000000.0f)/populacao_2;
+densidade_1 = (float)populacao_1/area_1;
+densidade_2 = (float)populacao_2/area_2;
+PIB_cap1 = (float)(PIB_1 *1000000000.0f)/populacao_1;
+PIB_cap2 = (float)(PIB_2 *1000000000.0f)/populacao_2;
 super1 = (float)populacao_1 + area_1 + PIB_1 + (float)turistas_1 +PIB_cap1 + (1.0 / densidade_1);
 super2 = (float)populacao_2 + area_2 + PIB_2 + (float)turistas_2 +PIB_cap2 + (1.0 / densidade_2);
 
