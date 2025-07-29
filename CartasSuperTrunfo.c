@@ -94,7 +94,7 @@ printf("Populacao: %lu\n", populacao_1);
 printf("Área: %.2f km²\n", area_1);
 printf("PIB: %.2f Bilhoes de reais\n", PIB_1);
 printf("Numero de pontos turisticos: %d\n", turistas_1);
-printf("Desnidade Populacional: %.2f  hab/km²\n", densidade_1);
+printf("Densidade Populacional: %.2f  hab/km²\n", densidade_1);
 printf("PIB per Capita: %.2f reais\n", PIB_cap1);
 printf("Super poder: %.2f\n", super1);
 
@@ -107,7 +107,7 @@ printf("Populacao: %lu\n", populacao_2);
 printf("Area: %.2f km²\n", area_2);
 printf("PIB: %.2f Bilhoes de reais\n", PIB_2);
 printf("Numero de pontos turisticos: %d\n", turistas_2);
-printf("Desnidade Populacional: %.2f  hab/km²\n", densidade_2);
+printf("Densidade Populacional: %.2f  hab/km²\n", densidade_2);
 printf("PIB per Capita: %.2f reais\n", PIB_cap2);
 printf("Super poder: %.2f\n", super2);
 
