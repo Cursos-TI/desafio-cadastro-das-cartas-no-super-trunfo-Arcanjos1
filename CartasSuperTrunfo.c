@@ -111,16 +111,14 @@ printf("Densidade Populacional: %.2f  hab/km²\n", densidade_2);
 printf("PIB per Capita: %.2f reais\n", PIB_cap2);
 printf("Super poder: %.2f\n", super2);
 
-//Comparaçoes das cartas 1 e 2
-printf("*** Compraçoes das cartas ***\n");
-printf("## Verdadeiro: 1 Falso: 2 ##\n");
-printf("Populaçao: carta1 ganha da carta2? (%d)\n", populacao_1 > populacao_2);
-printf("Area: Carta1 ganha da carta2? (%d)\n", area_1 > area_2);
-printf("PIB: carta1 ganha da carta2? (%d)\n", PIB_1 > PIB_2);
-printf("Numeros de pontos turisticos: carta1 ganha da carta2? (%d)\n", turistas_1 > turistas_2);
-printf("Densidade populacional: carta1 ganha da carta2? (%d)\n", densidade_1 < densidade_2);
-printf("PIB per capita: carta1 ganha da carta2? (%d)\n", PIB_cap1 > PIB_cap2);
-printf("Super poder: carta1 ganha da carta2? (%d)\n", super1 > super2);
+//comparaçao if-else
+if (populacao_1 > populacao_2){
+    printf("Carta 1 Venceu!\n");
+}else{
+    printf("Carta 2 venceu!\n");
+}
+
+ 
 
 
 
