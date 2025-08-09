@@ -111,11 +111,14 @@ printf("Densidade Populacional: %.2f  hab/km²\n", densidade_2);
 printf("PIB per Capita: %.2f reais\n", PIB_cap2);
 printf("Super poder: %.2f\n", super2);
 
-//comparaçao if-else
+//comparaçao das cartas
+printf("Comparacao de cartas(Atributo: Populacao)\n");
+printf("carta 1 - %s: %ld hab.\n", nome_cidade_1, populacao_1);
+printf("carta 2 - %s: %ld hab.\n", nome_cidade_2, populacao_2);
 if (populacao_1 > populacao_2){
     printf("Carta 1 Venceu!\n");
 }else{
-    printf("Carta 2 venceu!\n");
+    printf("Carta 2 Venceu!\n");
 }
 
  
